@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artigo - HTML</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div style="display: flex;justify-content: center; align-items: center;">
+            <img width="70px" src="./logo_html.avif" alt="logo do html">
+            <h1>Descobrindo o HTML</h1>
+        </div>
+        <hr>
+        <div>
+            <ol>
+                <li><a href="#introducao">Introdução</a></li>
+                <li><a href="#fundamentos">Fundamentos</a></li>
+                <li><a href="#rodape">Rodapé</a></li>
+
+            </ol>
+        </div>
+    </header>
+
+    <img src="./banner_html5.webp" alt="banner com a logo do HTML">
+
+    <br>
+    <br>
+
+    <section id="introducao">
+        <div>
+            <h2>Introdução ao HTML </h2>
+
+            <p>Em sua essência, <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/HTML"
+                    target="_blank">HTML</a> é uma linguagem bastante simples composta de <a
+                    href="https://developer.mozilla.org/pt-BR/docs/Glossary/Element" target="_blank">elementos</a>, que
+                podem ser aplicados a
+                pedaços de texto para dar-lhes significado diferente em um documento</p>
+
+            <h3>O que é HTML?</h3>
+
+            <p>HTML <mark><strong><i>(HyperText Markup Language)</i></strong></mark> não é uma linguagem de programação,
+                é uma linguagem de marcação
+                utilizada para dizer ao seu navegador como estruturar a página web que você visita. A página pode ser
+                tanto complicada como simples quanto o desenvolvedor web desejar que seja. HTML consiste em uma série de
+                elementos que você usa para anexar, envolver ou marcar diferentes partes do conteúdo para que apareça ou
+                aja de uma certa maneira. O fechamento das tags pode transformar uma parte do conteúdo dentro do
+                elemento em um link para direcionar à uma outra página web, colocar as palavras em itálico, e assim por
+                diante.</p>
+        </div>
+
+    </section>
+
+    <section id="fundamentos">
+        <div>
+            <h2>Fundamentos do texto HTML</h2>
+
+            <p>Um dos principais objetivos do HTML é dar estrutura de texto e significado, também conhecido como
+                semântica), para que um navegador possa exibi-lo corretamente. Este artigo explica a forma como HTML
+                pode ser usado para estruturar uma página de texto, adicionar títulos e parágrafos, enfatizar palavras,
+                criar listas e muito mais.</p>
+
+            <p>O conteúdo estruturado torna a experiência de leitura mais fácil e mais agradável.</p>
+
+            <h3>Existem seis elementos de título</h3>
+
+            <p>"h1, h2, h3, h4, h5 e h6". Cada elemento
+                representa um nível diferente de conteúdo no documento;
+                h1 representa o título
+                principal, h2 representa subtítulos, h3 representa sub-subtítulos, e assim
+                por diante.</p>
+
+            <h3>Implementando hierarquia estrutural</h3>
+
+            <p>Como exemplo, em uma história, h1 representaria o título da história, h2 representaria o título de cada
+                capítulo e h3 representaria sub-seções de cada capítulo, e assim por diante</p>
+
+            <p>Depende realmente de você, o quê, exatamente, representam os elementos envolvidos, desde que a hierarquia
+                faça sentido. Você só precisa ter em mente algumas das melhores práticas ao criar tais estruturas:</p>
+
+            <ul>
+                <li>Preferencialmente, você deve usar apenas um h1 por página — esse é o título do nível superior e
+                    todos os outros ficam abaixo dele, na hierarquia.</li>
+
+                <li>Certifique-se de usar os títulos na ordem correta na hierarquia. Não use h3 para representar
+                    subtítulos, seguido de h2 para representar sub-subtítulos - isso não faz sentido e levará a
+                    resultados estranhos.</li>
+
+                <li>Dos seis níveis de cabeçalho disponíveis, você deve usar no máximo três por página, a menos que
+                    considere necessário usar mais. Documentos com vários níveis (ou seja, uma hierarquia profunda de
+                    cabeçalho) tornam-se difíceis de navegar. Nessas ocasiões, é aconselhável espalhar o conteúdo por
+                    várias páginas, se possível.</li>
+            </ul>
+
+            <br>
+                    
+            <strong> <a style="color: blue;" href="#cabecalho">Voltar ao incio</a>
+            </strong>
+            
+            <br>
+                    
+            <h3>Por que precisamos de estrutura?</h3>
+
+            <p>Quando você abre o documento em seu navegador, você verá que o texto aparece como uma só parte!
+                Isso ocorre porque não há elementos para dar a estrutura de conteúdo, então o navegador não sabe o que é
+                um título e o que é um parágrafo. Além disso:</p>
+
+            <ul>
+                <li>Os usuários que olham para uma página web tendem a procurar rapidamente conteúdo relevante, muitas
+                    vezes apenas lendo os títulos para começar (normalmente passamos um tempo muito curto em uma página
+                    web). Se eles não conseguem ver nada útil dentro de alguns segundos, eles provavelmente ficarão
+                    frustrados e irão para outro lugar.
+                </li>
+                <li>Os mecanismos de pesquisa que indexam sua página consideram o conteúdo dos títulos como
+                    palavras-chave importantes para influenciar os rankings de pesquisa da página. Sem cabeçalhos, sua
+                    página irá funcionar mal em termos de SEO (Search Engine Optimization).</li>
+                <li>Os mecanismos de pesquisa que indexam sua página consideram o conteúdo dos títulos como
+                    palavras-chave importantes para influenciar os rankings de pesquisa da página. Sem cabeçalhos, sua
+                    página irá funcionar mal em termos de SEO (Search Engine Optimization).</li>
+                <li>Para criar um estilo de conteúdo com CSS, ou fazer coisas interessantes com JavaScript, você precisa
+                    ter elementos que envolvam o conteúdo relevante, assim CSS/JavaScript pode efetivamente segmentá-lo.
+                </li>
+            </ul>
+
+            <p>Nós, portanto, precisamos dar marcações estruturais ao nosso conteúdo.</p>
+        </div>
+
+    </section>
+    
+    <br>
+    <br>
+
+    <footer id="rodape" style="display: flex; justify-content: center; align-items: center;">
+        <a href="https://web.dio.me/lab/criar-uma-pagina-web-utilizando-as-tags-aprendidas/learning/fc56c26e-95a4-419d-a5bf-48826e676952"
+            target="_blank"><img width="100px" src="./logo_dio.png" alt="Logo da DIO">
+        </a>
+        <div>
+            <p style="text-align: center;"><strong>DIO</strong> - desafio proposto em aula sobre HTML</p>
+            <p style="text-align: center;"><strong><i>Matheus De La Barra</i></strong></p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
